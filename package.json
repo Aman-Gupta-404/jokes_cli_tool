@@ -1,6 +1,6 @@
 {
   "name": "amans-joke-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"A simple command line tool to get dad jokes xD\"",
   "main": "index.js",
   "scripts": {

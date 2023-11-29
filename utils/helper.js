@@ -35,7 +35,7 @@ const createJokesFile = (joke) => {
 
 // function to update leaderboard file
 const updateLeaderBoardFile = (content) => {
-  fs.writeFile("./data/popularJokes.txt", content, function (err) {
+  fs.writeFile("./popularJokes.txt", content, function (err) {
     if (err) throw err;
   });
 };

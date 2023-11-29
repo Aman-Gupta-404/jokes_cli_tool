@@ -4,13 +4,13 @@ const { updateLeaderBoardFile } = require("./helper");
 const updateJokesLeaderboard = (jokeId, joke) => {
   // read the file of popular jokes
   let jokesData;
-  const leaderboardFileExists = fs.existsSync("./data/popularJokes.txt");
+  const leaderboardFileExists = fs.existsSync("./popularJokes.txt");
   if (!leaderboardFileExists) {
-    fs.writeFile("./data/popularJokes.txt", "", function (err) {
+    fs.writeFile("./popularJokes.txt", "", function (err) {
       if (err) throw err;
     });
   }
-  fs.readFile("./data/popularJokes.txt", "utf8", async function (err, data) {
+  fs.readFile("./popularJokes.txt", "utf8", async function (err, data) {
     if (err) {
       console.log("Something went wrong!");
       return;
@@ -51,16 +51,12 @@ const updateJokesLeaderboard = (jokeId, joke) => {
       }
     }
   });
-
-  // console.log(popularJokesText);
-  // if the joke is already present, increment its count
-  // else add the joke and make its count as 1
 };
 
 const getPopularJoke = () => {
-  const leaderboardFileExists = fs.existsSync("./data/popularJokes.txt");
+  const leaderboardFileExists = fs.existsSync("./popularJokes.txt");
   if (leaderboardFileExists) {
-    fs.readFile("./data/popularJokes.txt", "utf8", async function (err, data) {
+    fs.readFile("./popularJokes.txt", "utf8", async function (err, data) {
       if (err) {
         console.log("Something went wrong!");
         return;
