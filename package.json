@@ -1,0 +1,17 @@
+{
+  "name": "amans-joke-tool",
+  "version": "1.0.0",
+  "description": "\"A simple command line tool to get dad jokes xD\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "amans-joke-tool": "index.js"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
