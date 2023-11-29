@@ -9,6 +9,10 @@
   "bin": {
     "amans-joke-tool": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aman-Gupta-404/jokes_cli_tool"
+  },
   "author": "Aman",
   "license": "ISC",
   "dependencies": {
