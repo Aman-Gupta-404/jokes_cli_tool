@@ -11,7 +11,6 @@ Hello, this is a simple CLI tool to tell you dad jokes, have fun using it!
 
 Install amans-joke-tool with npm
 ```bash
-  cd jokes_cli_tool
   npm i amans-joke-tool
 ```
 ## Run Locally
