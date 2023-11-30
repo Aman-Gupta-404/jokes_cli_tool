@@ -3,7 +3,8 @@
 
 Hello, this is a simple CLI tool to tell you dad jokes, have fun using it!
 
-##Find my package on NPM
+## Find my package on NPM
+
 [amans-joke-tool](https://www.npmjs.com/package/amans-joke-tool)
 
 ## Tech Used
